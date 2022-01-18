@@ -29,8 +29,9 @@ In this project, we will build a model that can predit the property price based 
                 Training using 80% of data
                 K-Fold Cross Validation to measure accuracy of Linear Regression
                 
-GridSearchCV: To find the best algorithm among Linear Regression, Lasso and Decission Tree Regressor
-Testing: Using 20% of data
+ GridSearchCV: To find the best algorithm among Linear Regression, Lasso and Decission Tree Regressor
+
+ Testing: Using 20% of data
 
 Technology and tools wise this project covers,
 1) Python
