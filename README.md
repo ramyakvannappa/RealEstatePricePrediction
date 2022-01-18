@@ -33,3 +33,4 @@ Technology and tools wise this project covers,
 Dataset: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 References:
 https://www.omnisci.com/technical-glossary/feature-engineering#:~:text=Feature%20engineering%20refers%20to%20the,machine%20learning%20or%20statistical%20modeling
+https://www.youtube.com/c/codebasics
