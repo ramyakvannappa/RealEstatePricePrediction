@@ -3,6 +3,7 @@ What are the things that a potential home buyer considers before purchasing a ho
 
 Buying a home, especially in a city like Bengaluru, India is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. Millennial crowd, vibrant culture, great climate and abundant job opportunities, it is difficult to ascertain the price of a house in Bengaluru.
 
+Dataset: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 In this project, we will build a model that can predit the property price based on location, area of the house, number of bedrooms and bathrooms. 
 
 Data Cleaning :  handling null values, creating transformed columns, examining the total_sqft column for range of area and calculating the average of the area, 
