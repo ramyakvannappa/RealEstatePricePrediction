@@ -11,19 +11,19 @@ In this project, we will build a model that can predit the property price based 
 
 3) Feature Engineering: Data Cleaning :  Handling null values
 
-Transformation: a) Calculating the price per sqft
-                b) Examining the total_sqft column for range of area and calculating the average of the area
+                        Transformation: a) Calculating the price per sqft
+                                        b) Examining the total_sqft column for range of area and calculating the average of the area
 
-Dimensionality Reduction: Grouping some rows for location(categorical) and adding all of them into a separate column
+                        Dimensionality Reduction: Grouping some rows for location(categorical) and adding all of them into a separate column
 
-Data Visualization: Using matplotlib to visualize the price for a given area
+                        Data Visualization: Using matplotlib to visualize the price for a given area
 
-Feature Selection: Dropping unnecessary features
+                        Feature Selection: Dropping unnecessary features
 
-One Hot Encoding: For location column
+                        One Hot Encoding: For location column
 
-Handling Outliers: Keeping the minimum trehold for total_sqft for 2BHK to be 300 and removing records otherwise, 
-                   Checking for outliers in number of bathrooms. I have considered number of bathrooms may not be > no. of bedrooms+2
+                        Handling Outliers: Keeping the minimum trehold for total_sqft for 2BHK to be 300 and removing records otherwise, 
+                                           Checking for outliers in number of bathrooms. I have considered number of bathrooms may not be > no. of bedrooms+2
 5) Model Building: Linear Regression using sklearn
                 Training using 80% of data
                 K-Fold Cross Validation to measure accuracy of Linear Regression
