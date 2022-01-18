@@ -9,7 +9,8 @@ In this project, we will build a model that can predit the property price based 
 
 2) Dataset: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
-3) Feature Engineering: Data Cleaning :  Handling null values
+3) Feature Engineering: 
+                        Data Cleaning :  Handling null values
 
                         Transformation: a) Calculating the price per sqft
                                         b) Examining the total_sqft column for range of area and calculating the average of the area
