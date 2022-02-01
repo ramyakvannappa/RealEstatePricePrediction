@@ -28,7 +28,7 @@ https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 4. Testing: Using 20% of data
 
-Technology and tools wise this project covers,
+### Technology and tools wise this project covers,
 1) Python
 2) Numpy and Pandas for data cleaning
 3) Matplotlib for data visualization
