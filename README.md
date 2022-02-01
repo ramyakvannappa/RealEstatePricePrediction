@@ -13,18 +13,20 @@ https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 ### Feature Engineering: 
 1. Data Cleaning :  Handling null values
-2. Transformation: - Calculating the price per sqft
-                   - Examining the total_sqft column for range of area and calculating the average of the area
-                   - Dimensionality Reduction: Grouping some rows for location(categorical) and adding all of them into a separate column
-                   - Data Visualization: Using matplotlib to visualize the price for a given area
-                   - Feature Selection: Dropping unnecessary features
-                   - One Hot Encoding: For location column
-                   - Handling Outliers: Keeping the minimum trehold for total_sqft for 2BHK to be 300 and removing records otherwise, 
-                                           Checking for outliers in number of bathrooms. I have considered number of bathrooms may not be > no. of bedrooms+2
-3. Model Building: - Linear Regression using sklearn
-                   - Training using 80% of data
-                   - K-Fold Cross Validation to measure accuracy of Linear Regression
-                   - GridSearchCV: To find the best algorithm among Linear Regression, Lasso and Decission Tree Regressor
+2. Transformation: 
+   - Calculating the price per sqft
+   - Examining the total_sqft column for range of area and calculating the average of the area
+   - Dimensionality Reduction: Grouping some rows for location(categorical) and adding all of them into a separate column
+   - Data Visualization: Using matplotlib to visualize the price for a given area
+   - Feature Selection: Dropping unnecessary features
+   - One Hot Encoding: For location column
+   - Handling Outliers: Keeping the minimum trehold for total_sqft for 2BHK to be 300 and removing records otherwise, 
+                           Checking for outliers in number of bathrooms. I have considered number of bathrooms may not be > no. of bedrooms+2
+3. Model Building: 
+   - Linear Regression using sklearn
+   - Training using 80% of data
+   - K-Fold Cross Validation to measure accuracy of Linear Regression
+   - GridSearchCV: To find the best algorithm among Linear Regression, Lasso and Decission Tree Regressor
 
 4. Testing: Using 20% of data
 
